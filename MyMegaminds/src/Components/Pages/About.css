@@ -1,0 +1,21 @@
+.about {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+
+  width: 400px;
+  height: 400px;
+  font-size: 19px;
+  background-color: #764af1;
+  color: #f2f2f2;
+  border-radius: 12.5px;
+}
+.about__heading,
+.about__text {
+  text-align: center;
+}
+.about__logo {
+  position: fixed;
+}

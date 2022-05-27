@@ -1,0 +1,32 @@
+.footer {
+  background-color: #112b3c;
+  color: aliceblue;
+  /* position: absolute;
+  bottom: 0; */
+  width: 100%;
+}
+.footer__links {
+  margin-left: 674px;
+}
+
+.icon {
+  display: inline-block;
+  padding: 10px;
+}
+.icon:hover {
+  color: aqua;
+}
+.footer__c {
+  padding: 0 10px 10px 10px;
+  /* margin-left: 675px;  */
+  text-align: center;
+}
+
+.footer__contents {
+  color: white;
+  margin-left: 50px;
+  padding-top: 10px;
+}
+.footer__contents > h4 {
+  padding: 10px 0;
+}
