@@ -35,7 +35,7 @@ function Faculty_login() {
 
     try {
       const { data } = await axios.post(
-        `${universalLink}/login`,
+        `${universalLink}/faculty_login`,
         {
           email: email[0],
           password: password[0],

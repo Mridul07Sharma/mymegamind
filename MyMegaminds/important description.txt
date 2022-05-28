@@ -1,0 +1,31 @@
+## API FOR BACKEND
+http://localhost:4000/api/v2/p2 as universalLink/ENDPOINT
+
+
+## for login of student
+
+universalLink/login
+
+## for signup of student
+
+universalLink/register
+
+## for signup of tutor
+
+universalLink/faculty_register
+
+## for login of tutor
+
+universalLink/faculty_login
+
+## for link generation after click on forget password
+
+universalLink/forgetpassword
+
+## for validation of token and email when reset page appear
+
+universalLink/verifytoken
+
+## for update password 
+
+universalLink/resetpassword

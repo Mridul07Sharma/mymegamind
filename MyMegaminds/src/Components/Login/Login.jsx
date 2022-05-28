@@ -35,7 +35,7 @@ function Login() {
 
     try {
       const { data } = await axios.post(
-        `${universalLink}/enroll`,
+        `${universalLink}/login`,
         {
           email: email[0],
           password: password[0],
