@@ -42,7 +42,7 @@ function Signup() {
 
     try {
       const { data } = await axios.post(
-        `${universalLink}/enroll`,
+        `${universalLink}/register`,
         {
           name: fullname[0],
 

@@ -45,7 +45,7 @@ function Faculty_signup() {
 
     try {
       const { data } = await axios.post(
-        `${universalLink}/enroll`,
+        `${universalLink}/faculty_signup`,
         {
           name: fullname[0],
           memberType: select[0],
